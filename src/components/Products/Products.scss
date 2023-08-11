@@ -1,0 +1,43 @@
+.products {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  li {
+    background: #111;
+    color: #fff;
+    padding: 1rem;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  span {
+    font-size:  1rem;
+    opacity: .9;
+  }
+
+  img {
+    border-radius: 4px;
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: block;
+    object-fit: cover;
+    background-color: #fff;
+  }
+
+  .add-product {
+    background-color: #09f;
+  }
+
+  .remove-product {
+    background-color: red;
+  }
+}
